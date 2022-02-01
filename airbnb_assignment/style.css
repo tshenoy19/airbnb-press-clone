@@ -1,0 +1,161 @@
+.navbar-light .navbar-brand {
+  color: #070707;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #070707;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #030303;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: rgb(243, 237, 237) !important;
+  border-radius: 0.3em;
+}
+.house {
+  width: 100%;
+  height: 100%;
+  padding: 40px 20px;
+}
+.navbar {
+  margin-top: 5px;
+}
+
+.navbar-icon img {
+  padding-left: 80px;
+  height: 100%;
+  width: auto;
+}
+
+.navitembackground:hover {
+  background-color: lightgrey;
+  border-radius: 10%;
+}
+
+@media (min-width: 992px) {
+  #navbarToggler {
+    display: none !important;
+  }
+}
+
+.date {
+  font-size: 14px;
+  color: gray;
+  padding: 3px;
+}
+
+.section-1 {
+  margin-top: 15%;
+}
+
+.section-1 a {
+  color: black;
+}
+
+.section-header {
+  padding: 12px;
+}
+
+.article-text {
+  font-weight: 700;
+  color: rgb(43, 40, 40);
+  padding-left: 5px;
+}
+
+.article-text:hover {
+  color: rgb(43, 40, 40);
+}
+.article-image {
+  height: 75px;
+  width: 75px;
+}
+
+.social-box {
+  border-left: solid 1px grey;
+  padding: 30px;
+}
+
+.social-box h5 {
+  font-weight: 900px;
+  font-size: 25px;
+}
+
+.section-3-p {
+  font-size: 17px;
+  font-stretch: expanded;
+  line-height: 1.5em;
+}
+
+.travel {
+  width: 700px;
+  height: 500px;
+}
+
+@media (max-width: 800px) {
+  .text-left br {
+    padding-top: none;
+    display: none;
+  }
+  .house {
+    padding-bottom: none;
+  }
+
+  .article-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.2em;
+    align-items: center;
+  }
+
+  .article-image {
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
+  }
+
+  .social-box {
+    border: none;
+  }
+}
+
+.section3-header {
+  color: black;
+  font-weight: 600;
+}
+
+.section3-text {
+  font-weight: 400;
+  font-size: 18px;
+  font-stretch: 2em;
+  line-height: 1.7em;
+}
+.slide-card {
+  height: 32em;
+}
+
+.slide-image img {
+  padding-bottom: 15px;
+  height: 25em;
+  width: 45em;
+}
+
+@media (max-width: 768px) {
+  .section3-container {
+    background-color: black;
+    color: white;
+  }
+  .section3-header {
+    color: white;
+    font-size: 20px;
+  }
+  .section3-text {
+    font-size: 15px;
+  }
+}
+
